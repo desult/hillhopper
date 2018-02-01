@@ -13,6 +13,15 @@
             </a>
           </div>
           <h3><a href="{{child.url}}">{{ child.title }} {% if child.header.subtitle %} - {{ child.header.subtitle }} {% endif %}</a></h3>
+
+          <ul>
+            {% for subchild in child.collection %}
+              <li>
+                <a href="{{ subchild.url }}">{{ subchild.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+
           <ul>
             {% for listeditem in child.header.examples %}
               <li>{{ listeditem }}</li>
