@@ -9,7 +9,11 @@
 
 .iconholder2 {         margin: 0px auto;;
                        width: 150px;
+                       height: 150px;
                        text-align: center;}
+
+.iconholder2 img {     max-width: 150px;
+                       max-height: 150px;}
 
 .textholder {         flex: 1;
                       padding-left: 40px; }
