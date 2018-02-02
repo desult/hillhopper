@@ -1,4 +1,5 @@
 @import 'variables.scss';
+@import "cards-02.scss";
 
 * {           font-family: sans-serif;
               box-sizing: border-box;}
@@ -174,6 +175,8 @@ form button {       padding: 10px 15px;
                     border: 0px; }
 form button:hover { background-color: lighten($swatch02, 5%);
                     box-shadow: 0px 2px 10px hsla($hue01, 5, 10, .2); }
+
+float-left {        float: left;}
 
 @media only screen and (max-width: 940px) {
 .paper {      width: 90%;}
