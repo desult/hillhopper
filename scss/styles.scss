@@ -1,5 +1,6 @@
 @import 'variables.scss';
 @import "cards-02.scss";
+@import "header.scss";
 
 * {           font-family: sans-serif;
               box-sizing: border-box;}
@@ -66,11 +67,6 @@ p {           line-height: 1.4em;}
                       margin-bottom: 20px;}
 .card img {           border: 5px solid $swatch04;
                       border-radius: 100%;}
-.header img {         width: 300px;
-                      max-height: 300px;
-                      display: block;
-                      margin: 30px auto;}
-
 .widebutton {         background-color: hsl($hue01, 40, 25);
                       color: $swatch03;
                       text-align: center;

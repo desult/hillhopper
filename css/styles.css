@@ -20,6 +20,15 @@
   flex: 1;
   padding-left: 40px; }
 
+.header {
+  display: flex;
+  padding: 15px 30px;
+  justify-content: space-between; }
+
+.header img {
+  width: 300px;
+  max-height: 300px; }
+
 * {
   font-family: sans-serif;
   box-sizing: border-box; }
@@ -111,12 +120,6 @@ p {
 .card img {
   border: 5px solid #A0A1A2;
   border-radius: 100%; }
-
-.header img {
-  width: 300px;
-  max-height: 300px;
-  display: block;
-  margin: 30px auto; }
 
 .widebutton {
   background-color: #264159;
