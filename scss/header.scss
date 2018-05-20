@@ -6,6 +6,5 @@
 .header img {         width: 300px;
                       max-height: 300px;}
 
-.headerlogo {         }
-
-.headerinfo {         }
+@media only screen and (max-width: 700px) {
+.header {             display: block;}}

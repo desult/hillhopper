@@ -29,6 +29,14 @@
   width: 300px;
   max-height: 300px; }
 
+@media only screen and (max-width: 700px) {
+  .header {
+    display: block; } }
+@font-face {
+  font-family: 'camboregular';
+  src: url("../fonts/cambo/cambo-regular-webfont.woff2") format("woff2"), url("../fonts/cambo/cambo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 * {
   font-family: sans-serif;
   box-sizing: border-box; }
@@ -181,7 +189,11 @@ p {
   max-width: 300px; }
 
 .md h1 {
-  text-align: center; }
+  text-align: center;
+  font-family: "camboregular"; }
+
+.md h2, h3, h4, h5 {
+  font-family: "camboregular"; }
 
 .map {
   height: 600px; }
@@ -280,7 +292,10 @@ float-left {
     height: 400px; } }
 @media only screen and (max-width: 700px) {
   .chomp3 {
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+
+  .md iframe {
+    width: 100%; } }
 @media only screen and (max-width: 500px) {
   h1 {
     font-size: 1.5em; }

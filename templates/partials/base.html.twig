@@ -79,8 +79,8 @@
                     <img src="{{ page_url }}{{ item.image }}" alt="{{ item.alt }}">
                   </div>
                 {% endfor %}
-                </div>
-          </div>
+              </div>
+              </div>
           {% endif %}
 
         </div>
@@ -89,20 +89,8 @@
 
 {% block footer %}
     <div class="acrylic centertext">
-      <div class="chomp2">
-        <div>
-          <p>American Diversity - Valdosta, GA</p> <BR>
-        </div>
-        <div>
-          <h3>Site Login</h3>
-          <hr>
-          {% if config.plugins.login.enabled and grav.user.username %}
-            </p><i class="fa fa-lock"></i> {% include 'partials/login-status.html.twig' %}</p>
-          {% else %}
-            <p><a href="/login">Login</a></p>
-          {% endif %}
-          <!-- <a href="admin.php">Login to Admin</a> -->
-      </div>
+      <div>
+        <p>American Diversity - Valdosta, GA</p> <BR>
       </div>
     </div>
 {% endblock %}

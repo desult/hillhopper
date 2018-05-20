@@ -1,6 +1,7 @@
 @import 'variables.scss';
 @import "cards-02.scss";
 @import "header.scss";
+@import "fonts.scss";
 
 * {           font-family: sans-serif;
               box-sizing: border-box;}
@@ -104,7 +105,10 @@ p {           line-height: 1.4em;}
 
 .md {                 padding: 20px;}
 .md img {             max-width: 300px;}
-.md h1 {              text-align: center;}
+.md h1 {              text-align: center;
+                      font-family: "camboregular"}
+.md h2, h3, h4, h5,{  font-family: "camboregular"}
+
 
 .map {                height: 600px;}
 
@@ -114,6 +118,9 @@ p {           line-height: 1.4em;}
                       background-color: $swatch03;
                       color: white;
                       padding: 50px;}
+
+
+
 
 /* Helper Classes */
 .clientlogos {              padding: 0px 40px;}
@@ -177,10 +184,11 @@ float-left {        float: left;}
 @media only screen and (max-width: 940px) {
 .paper {      width: 90%;}
 .acrylic {    width: 90%;}
-.map {        height: 400px;}}
+.map {        height: 400px;} }
 
 @media only screen and (max-width: 700px) {
-.chomp3 {     grid-template-columns: 1fr 1fr; } }
+.chomp3 {     grid-template-columns: 1fr 1fr; }
+.md iframe {  width: 100%;} }
 
 @media only screen and (max-width: 500px) {
 h1 {         font-size: 1.5em; }
